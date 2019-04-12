@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from './Bio.module.css'
-import { getGravatarURL } from '../utils/getGravatarURL'
 import avatar from "../images/avatar.jpg"
 
 interface BioProps {
@@ -8,11 +7,6 @@ interface BioProps {
 }
 
 function Bio(props: BioProps) {
-  let photoURL = getGravatarURL({
-    email: "reclusis@gmail.com",
-    size: 56,
-  })
-
   return (
     <div
       className={`
