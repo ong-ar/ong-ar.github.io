@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i,900|Montserrat:900');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+KR:400,500,600,700,900|Jua');
 
 :root {
-  --primary-color: #d23669;
-  --primary-color-light: rgb(255, 167, 196);
+  --primary-color: #9b2e2e;
+  --primary-color-light: rgb(170, 40, 40);
 }
 
 :global * {
@@ -15,10 +15,8 @@
 }
 
 :global body {
-  font-kerning: normal;
-  font-family: 'Merriweather','Georgia',serif;
-  font-feature-settings: "kern", "liga", "clig", "calt";
-  font-weight: 400;
+  font-family: 'Noto Serif KR', serif;
+  font-weight: 500;
   margin: 0;
   padding: 0;
   word-wrap: break-word;
