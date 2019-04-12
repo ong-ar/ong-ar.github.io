@@ -1,0 +1,47 @@
+import styles from "./document.module.css";
+
+<div className={styles["Welcome"]}>
+
+## 미리 설치해야 할 프로그램
+
+- npm or yarn
+- npx
+
+## 프로젝트 생성
+
+```shell
+npx create-react-blog react-blog
+cd react-blog
+npm start
+```
+
+만약 typescript 를 사용하시려면
+
+```shell
+npx create-react-blog react-blog --typescript
+```
+
+## 설정 방법
+
+**포스트를 수정하려면,** `src/pages/posts/2019-01-05-welcome/document.mdx` 파일을 수정.
+
+**사이트 타이틀을 수정하려면,** `src/siteMetadata.js` 파일에 메타데이터 수정.
+
+**프로필을 수정하려면,** `src/components/Bio.js` 파일을 수정.
+
+**사이트 색상을 수정하려면,** `src/index.module.css` 파일에서 `:root` 수정.
+
+**새로운 포스트를 생성하려면,** `src/pages/posts` 에 새로운 디렉토리를 만들고 `post.js` 파일을 아래의 내용으로 생성:
+
+```jsx
+export default {
+  title: `Learn How To Build This Blog From Scratch`,
+  tags: ["react", "navi"],
+  spoiler: "An online course with loads of live demos and exercises.",
+  getContent: () => import("./document.mdx")
+};
+```
+
+**index 페이지에 포스트 갯수를 설정하려면,** `src/siteMetadata.js` 파일에서 `indexPageSize` 속성을 수정.
+
+</div>
