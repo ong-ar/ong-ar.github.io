@@ -4,7 +4,7 @@
         <title>옹알의 개발 블로그</title>
         <link>/</link>
         <description>dev blog</description>
-        <lastBuildDate>Fri, 12 Apr 2019 16:14:42 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 13 Apr 2019 14:22:21 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
@@ -29,7 +29,7 @@
             <link>/posts/2019-04-12/github-pages</link>
             <guid>/posts/2019-04-12/github-pages</guid>
             <pubDate>Thu, 11 Apr 2019 15:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<div><div><h2 id="github-pages-란">github pages 란?</h2><p>github 에서 제공해주는 무료 웹호스팅이다.<br/>웹호스팅 주소: <strong><code>{username}</code></strong><code>.github.io/</code><strong><code>{repository}</code></strong><br/>html 이나 SPA 와 같은 정적 페이지에 적용이 가능하다</p><h2 id="이용-방법">이용 방법</h2><h3 id="1-repository-생성">1. repository 생성</h3><img src="/static/media/create-repository.a081d78b.png"/><hr/><h3 id="2-indexhtml-파일-생성">2. index.html 파일 생성</h3><img src="/static/media/create-index-html.5aa05195.png"/><hr/><h3 id="3-master-branch-를-github-pages-로-선택">3. master branch 를 github pages 로 선택</h3><ul><li>repository 생성 시 <strong><code>{username}</code></strong><code>.github.io</code> 이외의 이름은 github pages branch 를 다른 것으로 설정 가능</li><li><strong><code>{username}</code></strong><code>.github.io</code> repository 는 github pages branch 가 master 만 가능</li></ul><img src="/static/media/select-github-pages-repository.ae7bafed.png"/><hr/><h3 id="4-github-branch-변경-및-url-생성-확인">4. github branch 변경 및 url 생성 확인</h3><img src="/static/media/check-github-pages.cf57d7cc.png"/><hr/><h3 id="5-사이트-확인">5. 사이트 확인</h3><img src="/static/media/confirm-github-pages-url.533912e3.png"/><h2 id="사용-제한">사용 제한</h2><ul><li>github pages repository 권장 용량은 1GB</li><li>github pages 사이트 용량은 1GB</li><li>트래픽은 한달에 100GB</li><li>사이트 빌드는 1시간에 10번으로 제한</li></ul></div></div>]]></content:encoded>
+            <content:encoded><![CDATA[<div><div><h2 id="github-pages-란">github pages 란?</h2><p>github 에서 제공해주는 무료 웹호스팅이다.<br/>웹호스팅 주소: <strong><code>{username}</code></strong><code>.github.io/</code><strong><code>{repository}</code></strong><br/>html 이나 SPA 와 같은 정적 페이지에 적용이 가능하다</p><h2 id="이용-방법">이용 방법</h2><h3 id="1-repository-생성">1. repository 생성</h3><img src="/static/media/create-repository.a081d78b.png"/><hr/><h3 id="2-indexhtml-파일-생성">2. index.html 파일 생성</h3><img src="/static/media/create-index-html.5aa05195.png"/><hr/><h3 id="3-master-branch-를-github-pages-로-선택">3. master branch 를 github pages 로 선택</h3><ul><li>프로젝트 setting 에 진입하여 github pages branch 로 master 를 선택</li><li>repository 생성 시 <strong><code>{username}</code></strong><code>.github.io</code> 이외의 이름은 github pages branch 를 다른 것으로 설정 가능</li><li><strong><code>{username}</code></strong><code>.github.io</code> repository 는 github pages branch 가 master 만 가능</li></ul><img src="/static/media/select-github-pages-repository.ae7bafed.png"/><hr/><h3 id="4-github-branch-변경-및-url-생성-확인">4. github branch 변경 및 url 생성 확인</h3><img src="/static/media/check-github-pages.cf57d7cc.png"/><hr/><h3 id="5-사이트-확인">5. 사이트 확인</h3><img src="/static/media/confirm-github-pages-url.533912e3.png"/><h2 id="사용-제한">사용 제한</h2><ul><li>github pages repository 권장 용량은 1GB</li><li>github pages 사이트 용량은 1GB</li><li>트래픽은 한달에 100GB</li><li>사이트 빌드는 1시간에 10번으로 제한</li></ul></div></div>]]></content:encoded>
         </item>
     </channel>
 </rss>

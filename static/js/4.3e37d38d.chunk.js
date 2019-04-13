@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{90:function(t,e,n){"use strict";n.r(e),e.default={title:"github pages",tags:["github","github.io","github pages"],spoiler:"create-react-blog \ud504\ub85c\uc81d\ud2b8 \uc0dd\uc131 \ubc0f \uc124\uc815 \ubc29\ubc95",getContent:function(){return n.e(7).then(n.bind(null,80))}}}}]);
-//# sourceMappingURL=4.3e37d38d.chunk.js.map
