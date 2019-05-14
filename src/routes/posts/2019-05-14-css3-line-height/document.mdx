@@ -1,0 +1,67 @@
+import styles from "./document.module.css";
+
+<div className={styles["Welcome"]}>
+
+CSS는 block 형식을 가지는 태그를 수직 정렬할 수 있는 스타일 속성이 없습니다.  
+방안은 line-height 속성을 사용하는 것입니다.
+
+## 수직 정렬 전
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS3 line-height</title>
+    <style>
+      .button {
+        width: 150px;
+        height: 70px;
+        background-color: #111111;
+      }
+
+      .a {
+        font-size: 2em;
+        text-align: center;
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="button">
+      <a href="#" class="a">Click</a>
+    </div>
+  </body>
+</html>
+```
+
+## 수직 정렬 후
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS3 line-height</title>
+    <style>
+      .button {
+        width: 150px;
+        height: 70px;
+        background-color: #111111;
+      }
+      .a {
+        font-size: 2em;
+        text-align: center;
+        display: block;
+        line-height: 70px; // 추가;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="button">
+      <a href="#" class="a">Click</a>
+    </div>
+  </body>
+</html>
+```
+
+</div>
